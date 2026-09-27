@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="deposit.css" />
+<head>
+  <title>Deposit</title>
+</head>
+<body>
+    <h1>How much would you like to deposit.</h1>
+<button onclick="window.location.href='Bank.html'">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmdLPUN0JQh57JptXyEEkT8lTUbAY2EnDHb8mZulhyg&s=10" class="ig" />
+  Go back
+</button>
+<button onclick="window.location.href='done.html'">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmIV5_Yr5mYqA-TrPWGdQdbCp6w6i7GI_XYI7xT57rZg&s=10" class="ig" />
+  Done
+</button>
+<label for="balance">Current balance:</label>
+<input id="balance" type="number" value="5000" min="0">
+
+<label for="amount">Amount to add:</label>
+<input id="amount" type="number" min="0" step="0.01">
+
+<button type="button" onclick="addamount()">Add</button>
+
+<p id="result"></p>
+
+<script>
+  function addamount() {
+    const balance = Number(document.getElementById("balance").value);
+    const amount = Number(document.getElementById("amount").value);
+    const result = document.getElementById("result");
+
+    if (amount <= 0) {
+      result.textContent = "Enter an amount greater than 0.";
+    } else {
+      result.textContent = "New balance: $" + (balance + amount).toFixed(2);
+    }
+  }
+</script>  
+  </body>
+</html>
