@@ -1,4 +1,19 @@
 # My-Bank
-I MADE A BANK 
-Hello My project is a bank system that calculates deposit and withdrawal if you want to try it out here is the link https://8051987-eng.github.io/My-Bank/ if you want to try it than just click the link and explore my bank some features are that it can calculate your account balances after you deposited or withdrew some money in your account you can change how much money you have how much you want to deposit and withdraw some credits are to GitHub copilot and google and Bing google and Bing helped me with the images and GitHub copilot helped me with the coding for the subtraction and adding. if you want to change some stuff in my project leave a comment in StarDance.
-<img width="1068" height="372" alt="Screenshot 2026-09-27 091413" src="https://github.com/user-attachments/assets/2f9384e6-bf14-4cc6-bcef-f222e78167f8" />
+MY BANK
+Welcome to My Bank, a bank that is made best for you to use and calculate your account balance you can deposit and withdraw from your account.
+features
+ this can calculate your account balance after you deposit or withdraw
+ it has picture for people who don't now English well
+ allows you to put in your ammou nt of account and deposit or with drawal.
+
+Interface Preview
+here is some pictures <img width="1068" height="372" alt="Screenshot 2026-09-27 091413" src="https://github.com/user-attachments/assets/2f9384e6-bf14-4cc6-bcef-f222e78167f8" /> 
+
+Creadits for some stuff
+ GitHub Copilot: I used this for the subtraction and the addition
+ Google & Bing: I used this for the images
+
+How it works
+ it uses your account balence + and how much you want to withdraw or deposit to calculate your account balence
+ deposit:  account + deposit = ammount
+ withdrawal: account - withdrawal = ammount
